@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+::-webkit-scrollbar{
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/mount.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+header {
+    /* background-color: greenyellow; */
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    overflow: hidden;
+}
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: darkslategray;
+    padding: 6px 15px;
+    margin: 0 10px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar .active {
+    background-color: darkslategray;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.logo {
+    font-size: 2rem;
+    color: darkslategray;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    /* background-color: rebeccapurple; */
+    color: white;
+    position: relative;
+    
+}
+
+.judul-content h1 {
+    font-size: 40px;
+}
+.home-sci {
+    position: absolute;
+    bottom: 10%;
+    width: 170px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 35px;
+    color: darkslategray;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 2px solid darkslategray ;
+}
+
+/* About Page  */
+.first-container{
+    color: white;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 20px;
+
+}
+
+.pp-wrapper{
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 70%;
+    width: 600px;
+
+    /* background-color: #eaeaea; */
+}  
+
+.pp-img img{
+    width: 300px;
+    border-radius: 1000px;
+}
+
+.text-wrapper h1 {
+font-size: 40px;
+top: 10%;
+}
+
+.text-wrapper h2 {
+    font-size: 25px;
+
+}
+
+.about-judul{
+    font-size: 12px;
+}
+
+.about-container {
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+        justify-content: center;
+    /* align-items: center; */
+    display: flex;
+}
+
+.about-right {
+    position: relative;
+    padding: 20px;
+}
+
+.left-img {
+    padding-top: 10px;
+}
+
+.tb-container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
