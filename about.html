@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Me</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
 </head>
 <body>
@@ -58,44 +60,52 @@
 
             <div class="tb-container">
                 <div class="judul-tb">
-                    <h3>
+                    <h3 style="color: white;">
                         Anggota MBKM di BAST ANRI
                     </h3>
                     <br>
                 </div>
-                <div class="tb-content">
-                    <table border="">
+                <!-- Membuat tabel menggunakan Bootstrap 5 -->
+                    <table class="table table-dark table-hover table-bordered">
                         <th>Anggota</th>
                         <th>NPM</th>
+                        <th>Divisi</th>
                         <tr>
                             <td>Akbar Sayyidina</td>
                             <td>2308001010073</td>
+                            <td>Pengolahan</td>
+
                         </tr>
                         <tr>
                             <td>Muhammad Hafizh Haykal</td>
                             <td>2308001010041</td>
+                            <td>Tata Usaha</td>
                         </tr>
                         <tr>
                             <td>Octa Ramadhana Alfareysi</td>
                             <td>2308001010031</td>
+                            <td>Preservasi</td>
                         </tr>
                         <tr>
                             <td>T.R. Zarir Rizqullah</td>
                             <td>2308001010027</td>
+                            <td>Preservasi</td>
                         </tr>
                         <tr>
                             <td>Muhammad Radit Febriansyah</td>
                             <td>2308001010065</td>
+                            <td>Pelayanan</td>
                         </tr>
                         <tr>
                             <td>Annisa</td>
                             <td>2308001010039</td>
+                            <td>Akuisisi</td>
                         </tr>
                     </table>
                 </div>
             </div>
         </div>
     </div>
-        
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
     </html>
